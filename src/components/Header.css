@@ -1,0 +1,27 @@
+.diva{
+    background-color: grey;
+    height:70px
+}
+.title{
+    margin-left: 20px;
+    /* margin-top: 20px; */
+    padding-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    font-weight: 300;
+    
+    
+}
+.search{
+    float:right;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+.justify-content-end {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+    margin-top: 0px;
+    padding-top: 0%;
+  }
+  

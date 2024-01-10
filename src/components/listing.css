@@ -1,0 +1,38 @@
+.div1{
+    background-color: aqua;
+}
+.title{
+    background-color: antiquewhite;
+}
+.title1{
+    background-color: blue;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: antiquewhite;
+    
+  }
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 500px;
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1 0 25%; /* change this to suit your needs */
+  margin: 1%;
+  background-color: white;
+  }
+.imglist{
+    width: 100%; /* or any width you prefer */
+  height: auto;
+  margin-bottom: 10px;
+} 
+button{
+    align-self: center;
+} 
