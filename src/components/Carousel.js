@@ -1,5 +1,17 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
+
+
+
+
+
+
+
+
+
 
 const imageUrls = [
   'https://loremflickr.com/640/480/city',
@@ -12,9 +24,9 @@ function MyCarousel() {
   return (
     <Carousel>
       {imageUrls.map((url, index) => (
-        <Carousel.Item key={index}>
+        <Carousel.Item key={index} className='cara'>
           <img
-            className="d-block w-100"
+            className="center-block"
             src={url}
             alt={`Slide ${index}`}
           />

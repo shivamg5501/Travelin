@@ -11,7 +11,7 @@ const Header = () => {
     <Navbar className='diva'>
       <Container>
         <div className='title' onClick={() => navigate('/')}>Travelin</div>
-        {/* <Navbar.Toggle aria-controls='basic-navbar-nav' /> */}
+        <Navbar.Toggle aria-controls='basic-navbar-nav' />
         <Navbar.Collapse id='basic-navbar-nav' className='justify-content-end'>
           <SearchBox className="search" navigate={navigate} />
         </Navbar.Collapse>

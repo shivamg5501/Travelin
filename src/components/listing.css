@@ -1,11 +1,9 @@
 .div1{
     background-color: aqua;
 }
-.title{
-    background-color: antiquewhite;
-}
+  
 .title1{
-    background-color: blue;
+    color: #C8B9A5;
 }
 .card-container {
     display: flex;
