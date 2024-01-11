@@ -5,6 +5,7 @@ import "./listing.css";
 import Header from './Header';
 import { Router } from 'react-router-dom'
 import MyCarousel from "./Carousel";
+import MyFunction from "./Map";
 
 const Footer = () => {
   return (
@@ -17,7 +18,7 @@ const Footer = () => {
 
 const Listing = () => {
   const [listings, setListings] = useState([]);
-  const [currentPage, setCurrentPage] = useState(1);
+  const [currentPage, setCurrentPage] = useState(2);
   const listingsPerPage = 10;
   const navigate = useNavigate();
 
@@ -39,6 +40,7 @@ const Listing = () => {
     <div  className='title2'>
       <Header />
       <MyCarousel />
+      {/* <MyFunction /> */}
       <div className='card-container'>
       {listings.map(listing => (
         <div key={listing.id} className='card'>

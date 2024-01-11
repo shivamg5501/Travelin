@@ -1,6 +1,7 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import MyFunction from "./Map";
 
 
 
@@ -30,6 +31,7 @@ function MyCarousel() {
             src={url}
             alt={`Slide ${index}`}
           />
+          {/* <MyFunction  className="mp"/> */}
           <Carousel.Caption>
             <h3> Travelin </h3>
             <p> Take only memories, leave only footprints.</p>
