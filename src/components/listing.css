@@ -31,6 +31,21 @@
   height: auto;
   margin-bottom: 10px;
 } 
+.imglist1{
+  width: 95%; /* or any width you prefer */
+height: 700px;
+margin: 1%;
+} 
 button{
     align-self: center;
+    
 } 
+.cst{
+  align-self: center;
+  margin-left: 42%;
+}
+.btt{
+  margin-top: 20px;
+  margin-left: 45%;
+  margin-bottom: 30px;
+}

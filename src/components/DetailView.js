@@ -25,10 +25,20 @@ const DetailView = () => {
   }
 
   return (
-    <div>
-      <h2>{listing.title}</h2>
+    <div className='dtv'>
+      <h2>{listing.name}</h2>
       <p>{listing.description}</p>
-      <button>Book Now</button>
+      <img src={listing.imageURL} className='imglist1' />
+      <div className='cst'>
+        <h2 >Necessary Details</h2>
+      <h4>Trip Cost : {listing.price}</h4>
+      <h5>Zip code : {listing.zipcode}</h5>
+      <h6>Listed By : {listing.listedBy}</h6>
+      <h6>Listed Onn : {listing.listedOn}</h6>
+      <h7>Location : Longitude{listing.longitude} & Latitude-{listing.latitude} </h7>
+      </div>
+      
+      <button className='btt'>Book Now</button>
     </div>
   );
 };

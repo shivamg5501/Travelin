@@ -31,8 +31,8 @@ function MyCarousel() {
             alt={`Slide ${index}`}
           />
           <Carousel.Caption>
-            <h3>Slide label {index}</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3> Travelin </h3>
+            <p> Take only memories, leave only footprints.</p>
           </Carousel.Caption>
         </Carousel.Item>
       ))}
