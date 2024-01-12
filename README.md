@@ -3,8 +3,8 @@
 > Travel platform built with the React and TailwindCSS\
 >Main Page
 <img src="./screenshot/Home_Page.png">
-\
-\
+ \
+ \
 >Detailed Page
 
 <img src="./screenshot/Detail_Page.png">
