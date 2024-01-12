@@ -1,8 +1,20 @@
-# Getting Started with Create React App
+# Travelin Platform 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> Travel platform built with the React
 
-## Available Scripts
+<img src="./screenshot/Home_Page.png">
+
+This project is part of my [Frontend Scratch | Travel Platform](https://www.traversymedia.com/mern-stack-from-scratch) course. It is a full-featured shopping cart with credit/debit payments. See it in action [here](http://proshopapp.herokuapp.com/).
+
+This is version of the app, which uses Redux Toolkit.
+
+## Features
+
+- Map view
+- Price tag on the Map
+- Available destination's
+- Price Per Trip
+- User Details
 
 In the project directory, you can run:
 
