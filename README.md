@@ -1,14 +1,15 @@
 # Travelin Platform 
 
-> Travel platform built with the React and TailwindCSS
+> Travel platform built with the React and TailwindCSS\
 >Main Page
 <img src="./screenshot/Home_Page.png">
-
+\
+\
 >Detailed Page
 
 <img src="./screenshot/Detail_Page.png">
 
-
+\
 This project is made from [Frontend Scratch | Travel Platform](https://github.com/shivamg5501/Travelin.git). It is a full-featured Traveling website which shows the locations of all the available locations for travelling with the minimum price range around the world.
 
 This is version of the app, which uses React, Tailwind and Bootstrap.
