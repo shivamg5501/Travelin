@@ -1,12 +1,17 @@
 # Travelin Platform 
 
-> Travel platform built with the React
+> Travel platform built with the React and TailwindCSS
 
 <img src="./screenshot/Home_Page.png">
 
-This project is part of my [Frontend Scratch | Travel Platform](https://www.traversymedia.com/mern-stack-from-scratch) course. It is a full-featured shopping cart with credit/debit payments. See it in action [here](http://proshopapp.herokuapp.com/).
+>Main Page
 
-This is version of the app, which uses Redux Toolkit.
+<img src="./screenshot/Detail_Page.png">
+
+>Detail Page
+This project is made from [Frontend Scratch | Travel Platform](https://github.com/shivamg5501/Travelin.git). It is a full-featured Traveling website which shows the locations of all the available locations for travelling with the minimum price range around the world.
+
+This is version of the app, which uses React, Tailwind and Bootstrap.
 
 ## Features
 
@@ -14,7 +19,7 @@ This is version of the app, which uses Redux Toolkit.
 - Price tag on the Map
 - Available destination's
 - Price Per Trip
-- User Details
+- Location Details
 
 In the project directory, you can run:
 
