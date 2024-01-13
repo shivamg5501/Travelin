@@ -1,5 +1,5 @@
 # Travelin Platform 
-
+https://github.com/shivamg5501/Travelin/assets/109525961/b8449be9-9e7d-4d62-b78f-97ee4ebf677e
 > Travel platform built with the React and TailwindCSS\
 > Main Page
 <img src="./screenshot/Home_Page.png">
